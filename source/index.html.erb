@@ -1,92 +1,30 @@
+<img src="images/logo-etogs.png" alt="logo">
 <div class="container">
-  <img src="images/logo-etogs.png" alt="">
-  <h1>
-    Sais-tu vraiment ce que tu portes ?
-  </h1>
-  <div class="bloc-text pb-40">
-    <p>« L’industrie textile est la 2ème industrie la plus polluante, après l’industrie du pétrole. »</p>
+  <h1>L'écologie ça passe aussi par ce qu'on porte sur le dos, pas vrai ?</h1>
+  <h2>Alors...Prêt à découvrir Etogs ?</h2>
+  <% link_to "/infos.html" do %>
+    <%= image_tag '1st-picture.svg' %>
+  <% end %>
 
-    <p>« 70% des cours d’eau en Chine sont pollués à cause de l’industrie textile »</p>
+  <%= image_tag 'fleche.svg'%>
 
-    <p>« 70 millions de barils d’essence sont nécessaires pour la production de polyester chaque année »</p>
+  <% link_to "/questions.html" do %>
+    <%= image_tag '2nd-picture.svg' %>
+  <% end %>
 
-    <p>« 2 500 litres d’eau sont utilisés pour fabriquer un tee-shirt de 250 grammes »</p>
+  <%= image_tag 'fleche.svg'%>
 
-    <p>« 12 kilos de vêtements sont jetés tous les ans par chaque français »</p>
+  <% link_to "/etogs.html" do %>
+    <%= image_tag '3rd-picture.svg' %>
+  <% end %>
 
-    <p>« On ne porte même pas le tiers des vêtements présents dans notre dressing »</p>
+  <%= image_tag 'fleche.svg'%>
 
-    <p>Etc. Etc. Etc.</p>
-  </div>
-  <div class="sous-bloc punchline pb-40">
-    <p class="mb-0">Eh oui, ça fait</p>
-    <p class="important">flipper</p>
-  </div>
-
-  <img src="images/down.svg" alt="">
-
-  <div class="picture">
-    <p>photo étiquette</p>
+  <% link_to "/interest.html" do %>
+    <%= image_tag '4e-picture.svg' %>
+  <% end %>
+  <div class="mt-50">
+    <img src="images/enveloppe.png" alt="" class="contact">
   </div>
 
-  <div class="bloc-text pb-40">
-    <p>Oui, oui. Il s’agit bien des seules informations que l’on a sur nos fringues, sapes, fripes, guenilles …</p>
-    <p class="uppercase">et encore</p>
-    <p>Toutes ne sont pas obligatoires.</p>
-    <p>Alors nous sommes dans le flou, on ne sait que très rarement vraiment ce que l’on achète et ce que l’on porte.</p>
-  </div>
-  <div class="bloc-text pb-60">
-    <p>D’où viennent les matières ?</p>
-    <p>Qui les a ramassées, assemblées, cousues, teintes ?</p>
-    <p>Et dans quelles conditions ?</p>
-    <p>Combien de kms a voyagé mon produit pour arriver jusqu’ici ?</p>
-    <p>Est-ce que ce tee-shirt a consommé l’équivalent de 50 douches pour être fait ?</p>
-  </div>
-  <div class="bloc-text bold">
-    <p>Avec Etogs, on est bien décidés à vous premettre d’être mieux averti sur tous les vêtements que vous portez. Tant sur l’impact écologique et environnemental de leur fabrication que sur les conditions de travail sur toute la chaîne de production de vos articles.</p>
-  </div>
-
-  <div class="sous-bloc punchline">
-    <p>Comment ça marche ?</p>
-  </div>
-
-  <div class="bloc-explain">
-    <p>1. J’ouvre l’application</p>
-    <p>2. Je scanne le code barre de mon article</p>
-    <p>3. J’accède instantanément aux informations de mon article</p>
-  </div>
-
-  <div class="sous-bloc punchline">
-    <h1>Easy</h1>
-  </div>
-
-  <div class="pictures-screen pb-40 flex">
-    <img src="images/1st-ecran.png" alt="first ecran">
-    <img src="images/2nd-ecran.png" alt="second ecran">
-  </div>
-
-  <div class="explain-appli">
-    <p>Si votre article n’est pas encore présent dans notre base de données, vous pouvez le créer vous-même ! Via un simple formulaire après avoir scanné l’article.</p>
-    <p>Il sera alors disponible pour les futurs utilisateurs.</p>
-
-    <p>Autres options disponibles : Je peux sauvegarder dans mon dressing mes articles favoris et voir l’impact global de mon dressing.</p>
-    <p>Je peux donner un avis qualité sur les articles de mon choix et aussi voir les avis des autres utilisteurs.</p>
-    <p>Je vois la note de l’article et la note attribuée par les consommateurs.</p>
-    <p>Des alternatives produits me sont proposées, pour choisir un article similaire ayant une meilleure note !</p>
-  </div>
-
-  <div class="sous-bloc">
-    <p>Si le projet vous plaît (ou non d’ailleurs) et/ou que vous avez des idées à apporter, rendez-vous juste en dessous pour répondre à notre QUESTIONNAIRE !</p>
-    <p>PROMIS, ce sera rapide ! Et ça nous sera d’une grande aide pour améliorer notre produit et pouvoir rapidement vous proposer une appli au top pour vos futurs achats!</p>
-    <p>En attendant, vous pouvez déjà tester notre première version sur votre portable ici : http://www.etogs.club</p>
-  </div>
-  <div class="sous-bloc bold">
-    <p>Thanks you !</p>
-  </div>
 </div>
-
-<%= link_to(
-  "Read Documentation",
-  "https://middlemanapp.com/basics/templating_language/",
-  target: "_blank"
-) %>
