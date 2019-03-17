@@ -55,8 +55,6 @@ $pre-border: #6699CC;
   display: flex;
   justify-content: space-between;
 }
-.container_site {
-}
 nav {
   ul {
     margin: 1rem 0;
@@ -214,6 +212,11 @@ header {
   .img_logo {
     width: 50%;
     margin: 0 auto;
+  }
+  li {
+    img:hover {
+      background: #6549c26b
+    }
   }
 }
 .projet {
