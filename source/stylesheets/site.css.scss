@@ -55,6 +55,8 @@ $pre-border: #6699CC;
   display: flex;
   justify-content: space-between;
 }
+.container_site {
+}
 nav {
   ul {
     margin: 1rem 0;
@@ -94,10 +96,13 @@ nav {
 
 body {
   background-color: #fff;
-  color: $text-color;
+  color: #fff;
   font-family: 'Inconsolata', monospace;
   font-size: 18px;
   line-height: 1.5;
+  background-image: url('../images/clothes1.jpg');
+  background-repeat: no-repeat;
+
 }
 .en-tete {
   text-align: center;
@@ -200,4 +205,29 @@ header {
   margin: 0 auto;
   max-width: 50em;
   padding: 4em 2em;
+}
+
+// index
+.container_site {
+  padding: 10px 100px;
+  text-align: center;
+  .img_logo {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+.projet {
+  background: rgba(0,0,0,.6);
+  backdrop-filter: grayscale(1) contrast(3) blur(1px);
+  h1, h2 {
+    color: #fff;
+  }
+  .link_projet {
+
+  }
+}
+.pictures-screen {
+  img {
+    width: 70%;
+  }
 }
