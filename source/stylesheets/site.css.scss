@@ -215,13 +215,14 @@ header {
   }
   li {
     img:hover {
-      background: #6549c26b
+      background: #6549c26b;
     }
   }
 }
 .projet {
   background: rgba(0,0,0,.6);
   backdrop-filter: grayscale(1) contrast(3) blur(1px);
+  padding: 3px;
   h1, h2 {
     color: #fff;
   }
@@ -232,5 +233,57 @@ header {
 .pictures-screen {
   img {
     width: 70%;
+  }
+}
+.link {
+  color: #fff;
+  font-size: 25px;
+  &:hover {
+    color: red;
+  }
+}
+// responsive part
+@media (max-width: 768px) {
+  .container_site {
+    padding: 5px;
+    padding-bottom: 15px;
+    margin-top: 25px;
+    .img_logo {
+      width: 100%;
+      img {
+        width: 200px;
+      }
+    }
+    .en-tete {
+      img {
+        width: 270px;
+      }
+    }
+    .projet {
+      h1 {
+        font-size: 15px;
+        text-transform: uppercase;
+      }
+      h2 {
+        font-size: 14px;
+      }
+      .link_projet {
+        a {
+          border: 1px solid white;
+          padding: 2px;
+          background: white;
+          text-transform: uppercase;
+          font-weight: bold;
+        }
+      }
+    }
+    .navigation {
+      img {
+        width: 80px;
+      }
+    }
+    .container {
+      padding: 5px;
+    }
   }
 }
