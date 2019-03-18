@@ -118,6 +118,7 @@ GEM
     rails-assets-jquery (2.1.1)
     rails-assets-modernizr (3.6.0)
     rails-assets-popper.js (1.14.5)
+    rake (12.3.2)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
@@ -158,6 +159,7 @@ DEPENDENCIES
   rails-assets-jquery!
   rails-assets-modernizr!
   rails-assets-popper.js!
+  rake
   tzinfo-data
   wdm (~> 0.1.0)
 
