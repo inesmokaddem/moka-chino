@@ -88,14 +88,17 @@
           <a href="https://webquest.fr/?m=65584_etogs---je-veux-tout-savoir-sur-ce-que-je-porte" class="link">QUESTIONNAIRE !</a></p>
           <p>PROMIS, ce sera rapide ! Et ça nous sera d’une grande aide pour améliorer notre produit et pouvoir rapidement vous proposer une appli au top pour vos futurs achats!</p>
           <p>En attendant, vous pouvez déjà tester notre première version sur votre portable à cette adresse: http://www.etogs.club</p>
-          <a href="https://www.instagram.com/etogs.app/" class="link">Et nous suivre sur Instagram!</a>
+          <div class="insta_link">
+            <p>Suivez-vous!</p>
+            <%= link_to image_tag("instagram.svg", alt: "instagram"), "https://www.instagram.com/etogs.app/", target: :_blank %>
+          </div>
         </div>
         <div class="sous-bloc bold">
           <p>Thanks you !</p>
         </div>
-        <div class="contact">
+        <div class="contact mt-50">
           <p>Pour nous écrire, c'est par ici :</p>
-          <p><a href="mailto:etogs.app@email.com"><%= image_tag 'enveloppe.svg' %></a></p>
+            <p><a href="mailto:etogs.app@email.com"><%= image_tag 'enveloppe.svg' %></a></p>
         </div>
       </div>
     </section>
